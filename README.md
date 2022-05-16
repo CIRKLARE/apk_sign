@@ -3,7 +3,7 @@ sign apk files after compiling it
 
 ----------------------------------
 
-this command to generate keystore
+this command to generate keystore\n
 keytool -genkey -v -keystore key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-alias
 
 this command to sign apk
